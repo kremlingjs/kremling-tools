@@ -1,0 +1,31 @@
+{
+  "name": "kremling-loader",
+  "version": "2.1.2",
+  "main": "index.js",
+  "author": "@geoctrl",
+  "license": "MIT",
+  "repository": "git@github.com:kremlingjs/kremling-tools.git",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack --mode production",
+    "test": "jest"
+  },
+  "dependencies": {
+    "loader-utils": "^2.0.2",
+    "postcss-kremling": "1.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "css-loader": "^6.2.0",
+    "cssnano": "^5.0.7",
+    "jest": "^28.0.3",
+    "memfs": "^3.2.2",
+    "postcss": ">=8",
+    "webpack": "^5.46.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "peerDependencies": {
+    "postcss": ">=8"
+  }
+}

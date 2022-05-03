@@ -1,0 +1,17 @@
+{
+  "name": "kremling-tools",
+  "private": true,
+  "workspaces": [
+    "kremling-loader",
+    "kremling-babel-plugin",
+    "postcss-kremling"
+  ],
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:kremlingjs/kremling-tools.git",
+  "author": "geoctrl <tony@joinluminous.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  }
+}

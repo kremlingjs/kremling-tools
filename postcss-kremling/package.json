@@ -1,0 +1,17 @@
+{
+  "name": "postcss-kremling",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "@geoctrl",
+  "license": "MIT",
+  "repository": "git@github.com:kremlingjs/kremling-tools.git",
+  "dependencies": {
+    "postcss-selector-parser": "^6.0.10"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.13"
+  },
+  "peerDependencies": {
+    "postcss": ">=8"
+  }
+}
